@@ -1,0 +1,42 @@
+.derecha{
+  width:70%;
+  float:right;
+  padding-top:5px;
+   padding-bottom:5px;
+  padding-left:10px;
+  border-radius:5px;
+  box-sizing:border-box;
+  border-left: 1px solid ;
+  padding-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+#im1{
+  float: right;
+  height: 100%;
+}
+nav{
+  width:30%;
+  float: left;
+  display: block;
+
+
+}
+header{
+  border-bottom: 1px solid ;
+}
+
+*{
+  font-size: 30px;
+  text-decoration:none;
+}
+
+
+#logo{
+  width: 30%;
+}

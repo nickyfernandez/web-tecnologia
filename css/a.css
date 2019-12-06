@@ -1,0 +1,179 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.logo{
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.ham{
+  float: right;
+}
+
+#hamur{
+  color: white;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+header{
+  background-color: #df5838;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  margin: 0 -10px;
+  width: 100%;
+}
+
+article{
+  padding:10px;
+}
+
+.menu{
+  display: none;
+}
+section.productos{
+  background-color: #fff;
+  margin: 10px;
+}
+article.producto img{
+  width: 100%;
+}
+.link{
+  background-color: red;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-block;
+}
+
+main{
+  margin-top: 50px;
+}
+
+body{
+  background: url('../img/bg-2.png');
+
+
+}
+
+
+aside{
+  margin: 10px;
+}
+
+aside h2{
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+aside article{
+  background-color: #fff;
+  padding: 10px;
+}
+.imgtuto{width: 50%;}
+.tutorial h3{width: 40%; }
+
+section publicidades{
+  margin-top: 10px;
+
+}
+
+.publicidad img{
+  width: 100%;
+}
+
+
+@media (min-width: 480px){
+section.productos{
+  overflow: hidden;
+}
+  article.producto{
+    width: 50%;
+    float: left;
+  }
+  aside{
+    overflow: hidden;
+  }
+  section.tutoriales{
+    width: 48%;
+    float: left;
+  }
+section.publicidades{
+  width: 48%;
+  float: right;
+}
+.tutorial h3{
+  float: right;
+  font-size: 20px;
+}
+}
+
+@media (max-width: 480px){
+  .tutorial h3{
+    float: right;
+    font-size: 20px;
+
+
+  }
+}
+
+@media (min-width: 900px){
+  main{display: flex;margin-right: 50px;margin-left: 50px;}
+  section.productos{
+    overflow: hidden;
+    width: 150%;
+  }
+    article.producto{
+      width: 50%;
+      float: left;
+    }
+    aside{
+      overflow: hidden;
+    }
+    section.tutoriales{
+      width: 100%;
+      float: right;
+      overflow: hidden;
+
+
+    }
+  section.publicidades{
+    width: 100%;
+
+
+  }
+  .tutorial h3{
+    float: right;
+    font-size: 20px;
+  }
+.ham{display: none;}
+.menu{
+  display: inline;
+}
+.izq{
+  float: left;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+.der{float: right;
+text-decoration: none;
+margin-top: 10px;
+margin-right: 20px;
+font-size: 20px;
+
+}
+.menu a{color: white;margin-left: 10px;}
+}
